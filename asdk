@@ -1,0 +1,1 @@
+alias asdk='docker run -ti --rm --volume ~/.m2/repository:/root/.m2/repository --volume $(pwd):$(pwd) -w $(pwd) asdk-docker:latest'
